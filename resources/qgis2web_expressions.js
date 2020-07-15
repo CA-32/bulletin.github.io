@@ -763,3 +763,30 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_parcellesderfrences2020avecculturecopier_2rule0_eval_expression(context) {
+    // culture = 'mais'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('culture')  == 'mais');
+    } else {
+        return (feature.get('culture')  == 'mais');
+    }
+}
+
+
+function exp_parcellesderfrences2020avecculturecopier_2rule1_eval_expression(context) {
+    // culture = 'soja'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('culture')  == 'soja');
+    } else {
+        return (feature.get('culture')  == 'soja');
+    }
+}
