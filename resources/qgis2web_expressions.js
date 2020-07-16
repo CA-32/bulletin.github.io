@@ -766,7 +766,7 @@ function fnc_project_color(values, context) {
 
 
 
-function exp_parcellesderfrences2020avecculturecopier_2rule0_eval_expression(context) {
+function exp_parcellesref32_2rule0_eval_expression(context) {
     // culture = 'mais'
 
     var feature = context.feature;
@@ -779,7 +779,7 @@ function exp_parcellesderfrences2020avecculturecopier_2rule0_eval_expression(con
 }
 
 
-function exp_parcellesderfrences2020avecculturecopier_2rule1_eval_expression(context) {
+function exp_parcellesref32_2rule1_eval_expression(context) {
     // culture = 'soja'
 
     var feature = context.feature;
