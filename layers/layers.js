@@ -86,7 +86,7 @@ lyr_CA32_3.set('fieldImages', {'Retour': '', });
 lyr_Departement_32_4.set('fieldImages', {'RégION': 'TextEdit', 'ID_BDCARTO': 'TextEdit', 'DépARTEMEN': 'TextEdit', 'DépARTEM0': 'TextEdit', 'DépARTEM1': 'TextEdit', 'ORDONNée_D': 'TextEdit', });
 lyr_zonagesbulletinsgers2020_1.set('fieldLabels', {'nom secteu': 'header label', 'bulletin': 'no label', });
 lyr_parcellesref32_2.set('fieldLabels', {'RégION': 'no label', 'NOM_RégION': 'no label', 'DépARTEMEN': 'no label', 'DépARTEM0': 'no label', 'ARRONDISSE': 'no label', 'CANTON': 'no label', 'ID_BDCARTO': 'no label', 'COMMUNE': 'no label', 'COMMUNE0': 'no label', 'STATUT': 'no label', 'COMMUNE1': 'no label', 'ORDONNée_C': 'no label', 'SUPERFICIE': 'no label', 'POPULATION': 'no label', 'ComCom': 'no label', 'Pays': 'no label', 'Nb_hab': 'no label', 'Ratio_PAC': 'no label', 'Pourc_bio': 'no label', 'SURFACE': 'no label', 'culture': 'no label', 'technicien': 'no label', 'zonage bul': 'no label', });
-lyr_CA32_3.set('fieldLabels', {'Retour': 'header label', });
+lyr_CA32_3.set('fieldLabels', {'Retour': 'no label', });
 lyr_Departement_32_4.set('fieldLabels', {'RégION': 'no label', 'ID_BDCARTO': 'no label', 'DépARTEMEN': 'no label', 'DépARTEM0': 'no label', 'DépARTEM1': 'no label', 'ORDONNée_D': 'no label', });
 lyr_Departement_32_4.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
