@@ -766,7 +766,7 @@ function fnc_project_color(values, context) {
 
 
 
-function exp_parcellesref32_2rule0_eval_expression(context) {
+function exp_parcellerefrencet2021_2rule0_eval_expression(context) {
     // culture = 'mais'
 
     var feature = context.feature;
@@ -779,7 +779,33 @@ function exp_parcellesref32_2rule0_eval_expression(context) {
 }
 
 
-function exp_parcellesref32_2rule1_eval_expression(context) {
+function exp_parcellerefrencet2021_2rule1_eval_expression(context) {
+    // culture = 'mais pop'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('culture')  == 'mais pop');
+    } else {
+        return (feature.get('culture')  == 'mais pop');
+    }
+}
+
+
+function exp_parcellerefrencet2021_2rule2_eval_expression(context) {
+    // culture = 'mais sem'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('culture')  == 'mais sem');
+    } else {
+        return (feature.get('culture')  == 'mais sem');
+    }
+}
+
+
+function exp_parcellerefrencet2021_2rule3_eval_expression(context) {
     // culture = 'soja'
 
     var feature = context.feature;
