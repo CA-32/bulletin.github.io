@@ -92,10 +92,10 @@ lyr_zonagesbulletins32et65_1.set('fieldImages', {'nom secteu': 'TextEdit', 'bull
 lyr_Departement_32_2.set('fieldImages', {'RégION': 'TextEdit', 'ID_BDCARTO': 'TextEdit', 'DépARTEMEN': 'TextEdit', 'DépARTEM0': 'TextEdit', 'DépARTEM1': 'TextEdit', 'ORDONNée_D': 'TextEdit', });
 lyr_parcelles652022Nestesud_3.set('fieldImages', {'Zone': 'TextEdit', 'Culture': 'TextEdit', 'Commune': 'TextEdit', });
 lyr_Parcellesref2022ETE_4.set('fieldImages', {'Zone': 'TextEdit', 'Parcelle': 'Range', 'COMMUNE': 'TextEdit', 'Type de so': '', 'Culture': 'TextEdit', });
-lyr_zonagesbulletins32et65_1.set('fieldLabels', {'nom secteu': 'header label', 'bulletin': 'no label', });
+lyr_zonagesbulletins32et65_1.set('fieldLabels', {'nom secteu': 'no label', 'bulletin': 'no label', });
 lyr_Departement_32_2.set('fieldLabels', {'RégION': 'no label', 'ID_BDCARTO': 'no label', 'DépARTEMEN': 'no label', 'DépARTEM0': 'no label', 'DépARTEM1': 'no label', 'ORDONNée_D': 'no label', });
-lyr_parcelles652022Nestesud_3.set('fieldLabels', {'Zone': 'inline label', 'Culture': 'inline label', 'Commune': 'header label', });
-lyr_Parcellesref2022ETE_4.set('fieldLabels', {'Zone': 'inline label', 'Parcelle': 'inline label', 'COMMUNE': 'inline label', 'Type de so': 'inline label', 'Culture': 'inline label', });
+lyr_parcelles652022Nestesud_3.set('fieldLabels', {'Zone': 'no label', 'Culture': 'no label', 'Commune': 'no label', });
+lyr_Parcellesref2022ETE_4.set('fieldLabels', {'Zone': 'no label', 'Parcelle': 'no label', 'COMMUNE': 'no label', 'Type de so': 'no label', 'Culture': 'no label', });
 lyr_Parcellesref2022ETE_4.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
