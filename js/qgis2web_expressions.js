@@ -754,3 +754,108 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_parcelles2023t65_4rule0_eval_expression(context) {
+    // "culture" = 'Maïs' OR "culture" = 'Maïs grain'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['culture']  == 'Maïs') || (feature.properties['culture']  == 'Maïs grain'));
+    } else {
+        return ((feature['culture']  == 'Maïs') || (feature['culture']  == 'Maïs grain'));
+    }
+}
+
+
+function exp_parcelles2023t65_4rule1_eval_expression(context) {
+    // "culture" = 'Maïs Pop corn'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['culture']  == 'Maïs Pop corn');
+    } else {
+        return (feature['culture']  == 'Maïs Pop corn');
+    }
+}
+
+
+function exp_parcelles2023t65_4rule2_eval_expression(context) {
+    // "culture" = 'Maïs sem'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['culture']  == 'Maïs sem');
+    } else {
+        return (feature['culture']  == 'Maïs sem');
+    }
+}
+
+
+function exp_parcelles2023t65_4rule3_eval_expression(context) {
+    // "culture" = 'Soja'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['culture']  == 'Soja');
+    } else {
+        return (feature['culture']  == 'Soja');
+    }
+}
+
+
+function exp_parcelles2023t65_4rule4_eval_expression(context) {
+    // "culture" = 'Soja Bio'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['culture']  == 'Soja Bio');
+    } else {
+        return (feature['culture']  == 'Soja Bio');
+    }
+}
+
+
+function exp_parcelles2023t65_4rule5_eval_expression(context) {
+    // "culture" = 'Haricot tarbais maïs'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['culture']  == 'Haricot tarbais maïs');
+    } else {
+        return (feature['culture']  == 'Haricot tarbais maïs');
+    }
+}
+
+
+function exp_parcelles2023t65_4rule6_eval_expression(context) {
+    // "culture" = 'Haricot tarbais filet'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['culture']  == 'Haricot tarbais filet');
+    } else {
+        return (feature['culture']  == 'Haricot tarbais filet');
+    }
+}
+
+
+function exp_parcelles2023t65_4rule7_eval_expression(context) {
+    // "culture" = 'Pommes de terre'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['culture']  == 'Pommes de terre');
+    } else {
+        return (feature['culture']  == 'Pommes de terre');
+    }
+}
